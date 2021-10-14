@@ -1,0 +1,734 @@
+@font-face {
+    font-family: BTS;
+    src: url(fonts/SolanoGothicMVB-Bd.otf);
+}
+@font-face {
+    font-family: blockqoute;
+    src: url(fonts/SedgwickAve-Regular.ttf);;
+}
+@font-face {
+    font-family: Text;
+    src: url(fonts/Battambang-Regular.ttf);
+}
+@font-face {
+    font-family: footer;
+    src: url(fonts/AveriaSerifLibre-Light.ttf);
+}
+@font-face {
+    font-family: HYBE;
+    src: url(fonts/BankGothic\ Bold.ttf);
+}
+.active{
+    background-color: #7E1EEE;
+    border-radius: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.headblock{
+    width: 70%;
+    height: 150px;
+    background-color:black;
+    border-radius: 15px;
+    margin: 20px;
+    
+}
+
+.btslogo{
+    position: absolute;
+    top: 22px;
+    width: 125px;
+    left: 250px;
+}
+.armylogo{
+    position: absolute;
+    top: 28px;
+    width: 105px;
+    right: 250px;
+}
+.blockquote{
+    position :absolute;
+    top: 35px;
+    left: 420px;
+    font-family: blockqoute;
+    color: white;
+    font-size: 50px;
+}
+.author{
+    position :absolute;
+    top: 110px;
+    left: 675px;
+    font-family: blockqoute;
+    color: white;
+    font-size: 30px;
+}
+
+.mainphoto{
+    margin: 0px 30px 30px 223px;
+    width: 500px;
+    border-radius: 15px;
+    float: left;
+    box-shadow: gray 0 0 10px;
+}
+.h1home{
+    padding-top: 0px;
+    font-family: BTS;
+    font-size: 90px;
+}
+.definition{
+    position: absolute;
+    font-family: Text;
+    top: 330px;
+    font-size: 30px;
+    width: 500px;
+    margin-left: 6px;
+    text-align: left;
+}
+.redtext{
+    color: #920000;
+}
+.line1{
+    background-color: black;
+    position: relative;
+    padding-top: 10px;
+    margin-top: 0px;
+    width: 500px;
+    margin-right: 218px;
+    border-bottom: #920000 3px solid ;
+}
+
+.navigation{
+    font-size: 25px;
+    margin-left: 29px;
+    margin-top: 10px;
+}
+.navigation li{
+    line-height: 40px;
+    
+}
+ .navigation li a{
+    text-decoration: none;
+}
+.navigation li a:link, a:visited{
+    color: black;
+}
+.navigation li a:hover{
+    margin-left: 10px;
+    transition: .8s;
+    background-color: #7E1EEE;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+}
+
+.nav_about{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding:1.1% 0 0 0;
+    text-align: center;
+
+    
+}
+.nav_about ul{
+    display: inline;
+}
+.nav_about ul li{
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+}
+.nav_about ul li a{
+    color: white;
+    font-family: TEXT;
+    text-decoration: none;
+}
+.nav_about ul li a:hover{
+    transition: .8s;
+    background-color:#7E1EEE ;
+    border-radius: 20px;
+    padding: 10px;
+}
+.wikidefinition{
+    text-align: center;
+   
+}
+.main{
+    margin: 20px;
+}
+.BTSword{
+    font-size: 400px;
+    color: black;
+    font-family: BTS;
+    display: inline-block;
+}
+.wikidef{
+    display: inline-block;
+    width: 600px;
+    font-family: text;
+}
+.profiles{
+    margin: 20px;
+    display: inline;
+    text-align: center;
+}
+.members1{
+    display: inline-block;
+    border: 1px solid #929292;
+    border-radius: 20px;
+    width: 18%;
+    height:350px;
+    margin: 1% 2% 2% 0;
+    box-shadow: #929292 0 0 10px;
+    padding: 15px;
+}
+.members1:first-child{
+    margin-left: 4%;
+}
+.members2{
+    display: inline-block;
+    border: 1px solid #929292;
+    border-radius: 20px;
+    width: 18%;
+    height:350px;
+    margin: 0 3% 1% 0;
+    box-shadow: #929292 0 0 7px;
+    padding: 15px;
+}
+.members2:first-child{
+    margin-left: 25%;
+}
+.pfphoto{
+    width: 50%;
+    display: inline;
+    border-radius: 50%;
+}
+.pftext{
+    margin:10px 5px ;
+    font-family: TEXT;
+    color: #929292;
+}
+.compare1{
+    display: inline;
+}
+.debutphoto{
+    width: 80%;
+    height: 650px;
+    display: inline-block;
+    background-image: url(images/debut.jpg);
+    margin: 2% 0% 2% 5%;
+    background-size: cover;
+    
+    box-shadow: 0 0 15px 15px white inset; 
+}
+.verticalline{
+    display: inline-block;
+    height:620px;
+    width: 20px;
+    background-color: black;
+    margin-bottom: 45px;
+}
+.debutedate{
+    display: inline-block;
+    writing-mode:vertical-rl;
+    font-size: 160px;
+    font-family: BTS;
+    margin-bottom: 90px;
+}
+.compare2{
+    display: inline;
+}
+.newphoto{
+    width: 80%;
+    height: 650px;
+    display: inline-block;
+    background-image: url(images/bts2021.jpg);
+    margin: 2% 5% 2% 0%;
+    background-size: cover;
+    box-shadow: 0 0 15px 15px white inset; 
+}
+.newdate{
+    display: inline-block;
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+    font-size: 160px;
+    font-family: BTS;
+    margin-bottom: 80px;
+}
+.bookmarks{
+    text-align: center;
+}
+.bookmarks ul{
+    display: inline;
+}
+.bookmarks ul li{
+    display: inline-block;
+    width: 250px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: TEXT;
+}
+a{
+    text-decoration: none;
+}
+.bookmarks ul li a:link, a:visited{
+    color: black;
+}
+.bookmarks ul li a:hover{
+    transition: .4s;
+    border:2px solid #7E1EEE;
+    border-radius: 10px;
+    padding: 2%;
+}
+.meadia{
+    width: 1000px;
+    width: 80%;
+    height: 50%;
+    border:2px solid #929292;
+    border-radius: 30px;
+    text-align: left;
+    padding: 20px;
+}
+.mvs{
+    display: inline-block;
+}
+.mvs img{
+    margin: 1%;
+    border-radius: 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.mv{
+    width: 400px;
+}
+.line{
+    width: 2px;
+    height:1089px;
+    background-color: #929292;
+    display: inline-block;
+    margin-left: 12%;
+}
+.music{
+    display: inline-block;
+    width: 45% ;
+    height: 1100px;
+    background-color: #7E1EEE;
+    border-radius: 20px;
+    margin-left:3% ;
+    padding: 3%;
+}
+.songs{
+    font-family: BTS;
+    font-size: 50px;
+    color: #fff;
+}
+.anketa{
+    margin: 5%;
+    padding: 5%;
+    font-size: 40px;
+    font-family: TEXT;
+    text-align: center;
+}
+details > summary {
+    list-style-type: none;
+    margin-left: 22%;
+}
+
+details > summary::before {
+    content: '+';
+}
+details[open] > summary::before {
+    content: '-';
+}
+summary{
+    width: 700px;
+    line-height:50px;
+}
+form{
+    width: 700px;
+    margin-left: 27%;
+    text-align: left;
+}
+input{
+    height: 40px;
+    font-size: 30px;
+    font-family: BTS;
+    border-radius: 10px;
+    box-shadow: #929292 0px 0px 8px;
+    border: solid 1px #929292;
+
+}
+select{
+    height: 40px;
+    font-size: 30px;
+    font-family: BTS;
+    border-radius: 10px;
+    box-shadow: #929292 0px 0px 8px;
+    border: solid 1px #929292;
+}
+input:active{
+    border: #7E1EEE 2px solid;
+}
+textarea{
+    font-size: 20px;
+    font-family: BTS;
+    border-radius: 10px;
+    box-shadow: #929292 0px 0px 8px;
+    border: solid 1px #929292;
+}
+.submitbut{
+    width: 200px;
+    font-family: text;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: #929292 0px 0px 8px;
+    border: solid 1px #929292;
+    padding-top:0%;
+}
+footer{
+    background-color: black;
+    height: 300px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.citata{
+    width: 600px;
+    margin-left: 500px;
+    padding-top:2% ;
+}
+.icons{
+    width: 50px;
+    margin-right: 1%;
+}
+.socialmeadia{
+    margin:3% 2%
+}
+.newsword{
+    font-family: HYBE;
+    font-size: 100px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.agustd{
+    width: 80%;
+    margin-left: 10%;
+}
+.lyrics{
+    text-align: left;
+    font-family: footer;
+    font-size: 100%;
+    margin:2% 0px 2% 33%;
+}
+.news{
+    display: inline;
+    margin: 100px 0;
+}
+.lineleft{
+    display: inline-block;
+    width: 5px;
+    background-color: black;
+    height: 890px;
+    margin-left: 11%;
+}
+.date{
+    display: inline-block;
+    font-family: text;
+}
+.dateword{
+    font-size: 35px;
+    margin-left: 20%;
+    display: inline;
+    padding: 20%;
+}
+.dates{
+    font-size: 25px;
+}
+.newspart{
+    display: inline;
+    padding: 10% 35%;
+}
+.data{
+    font-size:25px ;
+    padding: 5% 10%;
+}
+.newsphoto{
+    width: 250px;
+    border-radius: 10px;
+    float: left;
+    margin: 5% 2% 5% 10%;
+}
+.newstext{
+    font-family: text;
+    font-size: 15px;
+    width: 600px;
+}
+.more:hover{
+    color: #7E1EEE;
+    transition: .5s;
+}
+.decoreimg{
+    width: 30%;
+}
+
+tr:hover{
+    background-color: #ECE7E7;
+}
+footer a img:hover{
+    transition: .75s linear;
+    margin-bottom: 10px;
+}
+.storyheading{
+    display: inline;
+    margin: 8% 0;
+}
+.storyword{
+    display: inline-block;
+    font-family: HYBE;
+    font-size: 50px;
+    line-height: 38px;
+    margin-left: 6%;
+    margin-top: 6%;
+    text-align: center;
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+    
+}
+.successword{
+    font-size: 65px;
+}
+.verticallineheading{
+    display: inline-block;
+    height: 365px;
+    margin-bottom: 0;
+    margin-left: 1%;
+    width: 5px;
+    background-color: black;
+}
+.successphoto{
+    display: inline-block;
+    width: 78%;
+}
+.storymain{
+    margin: 5%;
+}
+.storymain h2{
+    font-family: HYBE;
+    font-size: 40px; 
+    margin:2% 0 2% 38%;
+}
+.inception{
+    display: inline;
+}
+.inception img .odd{
+    float: left;
+}
+.inception img .even{
+    float: right;
+}
+.inception p{
+    display: inline-block;
+    width: 700px;
+    font-family: text;
+    font-size: 20px;
+    margin: 0% 2% 5% 2%;
+
+}
+.inception img{
+    width: 300px;
+    border-radius: 10px;
+}
+.decorestory{
+    width: 18%;
+    box-shadow: white 1px 1px 10px;
+    margin: 2% 0% 2% 4%;
+}
+.storymain a{
+    color: #7E1EEE;
+}
+.storymain a:hover{
+    transition:.75s;
+    color: #920000;
+}
+.armydef{
+    display: inline;
+    margin-left: 28%;
+}
+.armyword{
+    display: inline-block;
+    font-size: 200px;
+    font-family: BTS;
+    margin-top: 5%;
+}
+.wordbts{
+    display: inline-block;
+    font-size: 200px;
+    font-family: BTS;
+    font-size: 126px;
+    text-align: center;
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+}
+.armydef{
+    display: inline-block;
+    font-family: text;
+    font-size: 20px;
+    width: 600px;
+}
+
+.lets{
+    width: 100%;
+    margin-top: 5%;
+    padding: 3% 32%;
+    font-family: text;
+    font-size: 30px;
+    color: #fff;
+    background-color: #7E1EEE;
+    border-top: black 4px solid;
+    border-bottom: #fff 4px solid;
+}
+.btsworld{
+    padding: 3% 0;
+    background-color: #7E1EEE;
+}
+.btsworld h2{
+    font-family: BTS;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 45%;
+}
+.memories{
+    display:inline;
+}
+.memory{
+    padding: 1%;
+    margin-left: 4%;
+    margin-top: 3%;
+    display: inline-block;
+    width: 25%;
+    border-radius: 20px;
+    height: 270px;
+    background-color: #fff;
+    box-shadow: #fff 0px 0px 5px;
+    border: 2px solid grey;
+}
+.hiddentext{
+    visibility: hidden;
+    color: #fff;
+    font-family: text;
+    font-size: 20px;
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+}
+.memoryphoto{
+    width: 99%;
+    border-radius: 10px;
+}
+.memory:hover{
+    transition: 0.5s linear;
+    background-color:black;
+    height: 340px; 
+}
+.memory:hover>.hiddentext{
+    visibility: visible;
+}
+.fornews{
+    display: inline;
+}
+.newstextt{
+    font-size: 30px;
+    display: inline-block;
+    width: 400px;
+    margin-left: 5%;
+    text-align: center;
+    font-family: text;
+}
+.newsimg{
+    width: 50%; 
+    display: inline-block;
+}
+.articlee{
+    display: inline;
+}
+.articletext{
+    font-family: text;
+    display: inline-block;
+    font-size: 20px;
+    width: 800px;
+}
+.articlee a{
+    color: #7E1EEE;
+}
+.articlee a:hover{
+    color: #920000;
+    transition: .75s;
+}
+.rapword{
+    font-family: BTS;
+    font-size: 100px;
+    text-align: center;
+}
+.profilerap{
+    display: inline;
+}
+.rappf{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin-left: 8%;
+    border-radius: 20px;
+    background-color:#fff;
+    margin: 5%;
+    border:2px solid grey;
+    box-shadow: 1px 1px 5px grey;
+    
+}
+.rappfphoto{
+    margin: 2% 0;
+    border-radius: 50%;
+    width: 60%;
+}
+.rapinfo{
+    display: inline-block;
+}
+.rapinfo p{
+    
+    font-family: footer;
+    width: 600px;
+    font-size: 20px;
+    
+}
+.rapinfo a{
+    color: #7E1EEE;
+}
+.rapinfo a:hover{
+    transition: .5s;
+    color: #920000;
+}
+.profilerap iframe{
+    border-radius:10px;
+}
+#armypf img:hover{
+    transition: 0.5s linear;
+    padding-bottom: 1%; 
+}
+.members1, a{
+    font-family: text;
+    color: #7E1EEE;
+}
+.members1 a:hover{
+    font-family: text;
+    color: #920000;
+}
+.members2, a{
+    font-family: text;
+    color: #7E1EEE;
+}
+.members2 a:hover{
+    font-family: text;
+    color: #920000;
+}
